@@ -82,7 +82,7 @@ def like_command(message):
     user_data[str(uid)] = {'last_used': time.time()}
     save_data()
 
-    bot.reply_to(message, f"✅ Like request sent!
+    bot.reply_to(message, f'✅ Like request sent!')
 🎮 UID: {ff_uid}
 🌐 Server: {server}
 ⚡ Processing...")
