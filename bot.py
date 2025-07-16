@@ -83,7 +83,7 @@ def like_command(message):
     save_data()
 
     bot.reply_to(message, f'✅ Like request sent!')
-🎮 UID: {ff_uid}
+bot.reply_to(message, f"UID: 🆔 {ff_uid}")
 🌐 Server: {server}
 ⚡ Processing...")
     bot.send_message(ADMIN_ID, f"📥 Like Request
